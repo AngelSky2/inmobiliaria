@@ -65,23 +65,6 @@ class Property {
     this.tags = const [],
   });
 
-  factory Property.fromJson(Map<String, dynamic> json) {
-    return Property(
-      id: json['id'] as String,
-      title: json['title'] as String,
-      description: json['description'] as String? ?? '',
-      address: json['address'] as String? ?? '',
-      price: (json['price'] as num).toDouble(),
-      currency: json['currency'] as String? ?? 'USD',
-      bedrooms: json['bedrooms'] as int? ?? 0,
-      bathrooms: json['bathrooms'] as int? ?? 0,
-      area: (json['area'] as num?)?.toDouble() ?? 0,
-      type: json['type'] as String,
-      images: List<String>.from(json['images'] as List? ?? []),
-      available: json['available'] as bool? ?? true,
-    );
-  }
-
   factory Property.fromApi(Map<String, dynamic> json) {
     final fotos = json['fotos'] as Map<String, dynamic>?;
     final thumbs = fotos?['propiedadThumbnail'] as List? ?? [];
@@ -151,23 +134,6 @@ class Property {
       operationType: json['tipoOperacion'] as String?,
       tags: tags,
     );
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'title': title,
-      'description': description,
-      'address': address,
-      'price': price,
-      'currency': currency,
-      'bedrooms': bedrooms,
-      'bathrooms': bathrooms,
-      'area': area,
-      'type': type,
-      'images': images,
-      'available': available,
-    };
   }
 
   String get typeLabel {

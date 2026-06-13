@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 import 'services/json_service.dart';
-import 'services/property_repository.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await JsonService.init();
-  await PropertyRepository.init();
   runApp(const InmobiliariaApp());
 }
 

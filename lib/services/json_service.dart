@@ -48,12 +48,6 @@ class JsonService {
     await File(_reservationsPath).writeAsString(json.encode(reservations));
   }
 
-  static Future<List<Map<String, dynamic>>> readProperties() async {
-    final data =
-        await rootBundle.loadString('assets/data/properties.json');
-    return List<Map<String, dynamic>>.from(json.decode(data) as List);
-  }
-
   static Future<List<Map<String, dynamic>>> readAgents() async {
     final data =
         await rootBundle.loadString('assets/data/agents.json');
