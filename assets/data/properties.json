@@ -1,0 +1,80 @@
+[
+  {
+    "id": "prop_001",
+    "title": "Casa Moderna en el Centro",
+    "description": "Hermosa casa moderna con acabados de lujo, ubicada en el corazón de la ciudad. Cuenta con 3 recámaras, sala comedor, cocina integral, jardín y cochera para 2 autos.",
+    "address": "Av. Principal 123, Centro",
+    "price": 2500000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 180,
+    "type": "house",
+    "images": [],
+    "available": true
+  },
+  {
+    "id": "prop_002",
+    "title": "Departamento de Lujo",
+    "description": "Exclusivo departamento en el mejor sector de la ciudad. Vistas panorámicas, amenities de primer nivel, piscina, gimnasio y seguridad 24/7.",
+    "address": "Calle Las Palmas 456, Colonia Del Valle",
+    "price": 3800000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 120,
+    "type": "apartment",
+    "images": [],
+    "available": true
+  },
+  {
+    "id": "prop_003",
+    "title": "Casa de Campo",
+    "description": "Amplia casa de campo con terreno, ideal para familias que buscan tranquilidad. Cuenta con alberca, asador, jardín extenso y casa de invitados.",
+    "address": "Carretera Vieja Km 15, San Miguel",
+    "price": 4200000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 350,
+    "type": "house",
+    "images": [],
+    "available": true
+  },
+  {
+    "id": "prop_004",
+    "title": "Penthouse con Terraza",
+    "description": "Espectacular penthouse con terraza privada y jacuzzi. Acabados de lujo, cocina abierta, cuarto de lavado y estacionamiento para 3 autos.",
+    "address": "Av. Reforma 789, Zona Rosa",
+    "price": 5500000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 200,
+    "type": "penthouse",
+    "images": [],
+    "available": false
+  },
+  {
+    "id": "prop_005",
+    "title": "Casa Residencial",
+    "description": "Casa en fraccionamiento privado con vigilancia. Áreas verdes, juegos infantiles, terraza y cocina integral. Ideal para familia.",
+    "address": "Fracc. Los Olivos 321, Santa Fe",
+    "price": 3100000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 220,
+    "type": "house",
+    "images": [],
+    "available": true
+  },
+  {
+    "id": "prop_006",
+    "title": "Departamento Estudio",
+    "description": "Departamento tipo estudio perfecto para solteros o parejas jóvenes. Bien ubicado, cerca de transporte público y zonas comerciales.",
+    "address": "Calle Juárez 234, Colonia Centro",
+    "price": 950000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 55,
+    "type": "apartment",
+    "images": [],
+    "available": true
+  }
+]

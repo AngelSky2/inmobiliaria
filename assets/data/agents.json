@@ -1,0 +1,30 @@
+[
+  {
+    "id": "agent_001",
+    "name": "María García López",
+    "email": "maria.garcia@inmobiliaria.com",
+    "phone": "+52 555 123 4567",
+    "photo": ""
+  },
+  {
+    "id": "agent_002",
+    "name": "Carlos Mendoza Ruiz",
+    "email": "carlos.mendoza@inmobiliaria.com",
+    "phone": "+52 555 234 5678",
+    "photo": ""
+  },
+  {
+    "id": "agent_003",
+    "name": "Ana Sofía Hernández",
+    "email": "ana.hernandez@inmobiliaria.com",
+    "phone": "+52 555 345 6789",
+    "photo": ""
+  },
+  {
+    "id": "agent_004",
+    "name": "Roberto Jiménez Torres",
+    "email": "roberto.jimenez@inmobiliaria.com",
+    "phone": "+52 555 456 7890",
+    "photo": ""
+  }
+]
